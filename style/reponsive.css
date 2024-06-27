@@ -1,0 +1,32 @@
+@media(min-width:576px){
+
+}
+@media(min-width:768px){
+    .conections{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+    .conectionscontent{
+        width: 60%;
+        padding-right: 2rem;
+    }
+    .conectionsbanner{width: 40%;}
+}
+@media(min-width:992px){
+    .header{min-height: 80rem;}
+    .navbtn , .mobilenavmenu{display: none;}
+    .desktopmenu{display: flex;}
+    .desktopnavlink{display: block;}
+    .headercontentDescription{max-width: 50rem;}
+    .conectionscontentc{padding-right: 4rem;}
+    .conectionstitle{margin-bottom: 0;}
+}
+@media(min-width:1200px){
+    .conections{justify-content: space-between;}
+    .conectionscontentc{width: 60rem;}
+    .conectionsbanner{width: 42rem;}
+}
+@media(min-width:1400px){
+    .conections{padding: 3rem 6rem;}
+}
